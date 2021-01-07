@@ -1,0 +1,51 @@
+body {
+	
+
+	background:linear-gradient(-45deg, #00ffa4, #f28f5a, #5a64f2, #5a64f2,#00ffa4);
+	cursor:;
+
+	
+
+}
+h1{
+	font-family:helvetica;
+	font-size:10vw;
+		color:linear-gradient(-45deg, #f2db5a, #f28f5a, #5a64f2, #5a64f2);
+	color:#a7b5d6;
+}
+
+h1:hover{
+	color:linear-gradient(-45deg, #f2db5a, #f28f5a, #5a64f2, #5a64f2);
+	background
+	position:center;
+}
+
+h2{
+	font-family:cursive;
+	font-size:6vw;
+}
+
+p{
+	font-family:georgia;
+	font-size:4vw;
+}
+
+
+h2 a:hover,h2 a:active {
+	color:blue;
+	background-color:transparent;
+	text-decoration:underline;
+	cursor:cell;
+}
+
+.box{
+    width: 100px;
+    height: 50px;
+    background: red;
+    transition: width 2s, height 4s;
+  
+}
+.box:hover {
+  width: 300px;
+  height: 300px;
+}
