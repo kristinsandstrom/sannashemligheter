@@ -1,39 +1,130 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Galleri Pirra</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Poppins', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #F8F8F8;
+			color: #333333;
+		}
+		
+		.header {
+			display: flex;
+			align-items: center;
+			background-color: #FFE600;
+			padding: 20px;
+		}
+		
+		.logo h1 {
+			font-size: 36px;
+			font-weight: 700;
+			margin: 0;
+			color: #333333;
+		}
+		
+		.logo a {
+			color: #333333;
+			text-decoration: none;
+		}
+		
+		.indextransition {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 50px 0;
+		}
+		
+		.wrapper {
+			width: 80%;
+			max-width: 1200px;
+			margin: 50px auto;
+		}
+		
+		h2 {
+			font-size: 32px;
+			font-weight: 700;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		
+		.projects {
+			font-size: 24px;
+			font-weight: 600;
+			margin: 0;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			line-height: 1.2;
+		}
+		
+		.projects i {
+			font-style: normal;
+			color: #333333;
+		}
+		
+		.projects a {
+			color: #333333;
+			text-decoration: none;
+		}
+		
+		.info-text {
+			font-size: 20px;
+			font-weight: 400;
+			text-align: center;
+			line-height: 1.5;
+		}
+		
+		.about {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		
+		a {
+			color: #333333;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			color: #FFE600;
+		}
+		
+		@media only screen and (max-width: 600px) {
+			.wrapper {
+				width: 90%;
+			}
+			
+			.logo h1 {
+				font-size: 28px;
+			}
+			
+			h2 {
+				font-size: 24px;
+			}
+			
+			.projects {
+				font-size: 20px;
+			}
+			
+			.info-text {
+				font-size: 18px;
+			}
+		}
+	</style>
 </head>
-
 <body>
 	<div class="header">
-	<h1>SANNAS HEMLIGHETER</h1>
-   </div>
-	
-	<div class="box">
-	<img src="img/three.png" width="100%">
-   </div>
-  
-
-		<div>
-		<a><h2>Hälsning från Hedvig</h2></a>
-		<img src="img/one.png" width="50%">
-		<p>Sanna är en öppen bok.</p>
-	</div>
- 	<div>
-		<h2>Kändis</h2>
-		<img src="img/two.png" width="50%">
-		<p>Sanna är inte lik Maradona. Hon är Zendaia.</p>
+		<div class="logo"> 
+			<h1><a href="index.html">Galleri Pirra</a></h1>
+		</div>
+		<img src="img/pirra-illustration-gif.gif" alt="Pirra" width="100" height="100">
 	</div>
 	
-	<div>
-		<h2>video</h2>
-		<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-		</iframe>
-		<p>det låter som en otrolig norrlandsromantisk samtal.</p>
-   </div>
-		
-	
-	
-</body>
+	<div class="indextransition">
+		<div class="wrapper exhibition">
+			<h2 id="exhibititon"><
